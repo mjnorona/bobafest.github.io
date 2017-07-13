@@ -118,11 +118,26 @@ gallery page
 /******************************************************** 
 faq page
 ********************************************************/
+h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: -6px 0 5px 10px;
+}
+
+h2
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    margin: -6px 0 5px 10px;
+    color: #7dc4c8
+}
 
 /******************************************************** 
 contact page
 ********************************************************/
-
 * {
 	margin:0;
 	padding:0;
@@ -149,7 +164,7 @@ contact page
 	color:#777;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] { font:400 14px/17px 'Oswald', sans-serif; }
+#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] { font:400 14px/17px 'Oxygen', sans-serif;}
 
 #contact 
 {
@@ -176,7 +191,7 @@ fieldset
 	padding:10px;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover 
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact textarea:hover 
 {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
@@ -201,6 +216,7 @@ fieldset
 	margin:0 0 5px;
 	padding:10px;
 	font-size:17px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #contact button[type="submit"]:hover 
@@ -220,25 +236,29 @@ fieldset
 
 ::-webkit-input-placeholder 
 {
- color:#888;
+    color:#888;
+    font-family: 'Oswald', sans-serif;
 }
 
 :-moz-placeholder 
 {
- color:#888;
+    color:#888;
+    font-family: 'Oswald', sans-serif;
 }
 
 ::-moz-placeholder 
 {
- color:#888;
+    color:#888;
+    font-family: 'Oswald', sans-serif;
 }
 
 :-ms-input-placeholder 
 {
- color:#888;
+    color:#888;
+    font-family: 'Oswald', sans-serif;
 }
 
 /******************************************************** 
 relevant colors: #7dc4c8 (teal) & #52aaaf (dark teal)
-relevant texts: oswald, 
+relevant texts: oswald, oxygen
 ********************************************************/
