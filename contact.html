@@ -4,17 +4,14 @@
         <meta charset="utf-8">
         <title>The Boba Festival</title>
         <link rel="stylesheet" href="css/normalize.css">
-        <link href="https://fonts.googleapis.com/css?family=Anton|Catamaran|Rouge+Script" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <header>
-            <a href="index.html" id="logo">
-                <h1>The Boba Festival</h1>
-            </a>
             <nav>
                 <ul>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="vendors.html">VENDORS</a></li>
                     <li><a href="volunteers.html">VOLUNTEERS</a></li>
@@ -23,12 +20,34 @@
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
+            <img src="Pictures/contact.jpg" style="width: 100%">
         </header>  
-        <div id="wrapper">
+        <div id="sectionWrapper">
             <section>
+                <div class="container">  
+                    <form id="contact" action="" method="post">
+                    <label for="fname">NAME</label>
+                    <fieldset>
+                        <input placeholder="YOUR NAME" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <label for="fname">EMAIL ADDRESS</label>
+                    <fieldset>
+                        <input placeholder="YOUR EMAIL ADDRESS" type="email" tabindex="2" required>
+                    </fieldset>
+                    <label for="fname">MESSAGE</label>
+                    <fieldset>
+                        <textarea placeholder="TYPE YOUR MESSAGE HERE..." tabindex="3" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SUBMIT</button>
+                    </fieldset>
+                    </form>
+                </div>
             </section>
+        </div>
+        <div id="footerWrapper">
             <footer>
-                <p>&copy; 2017 The Boba Festival</p>
+                <p>&copy; 2017 THE BOBA FESTIVAL</p>
             </footer>
         </div>
     </body>

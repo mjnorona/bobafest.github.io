@@ -17,15 +17,6 @@ header a, header a:visited
     margin: 0;
 }
 
-h1 
-{
-    font-family: 'Luckiest Guy', cursive;
-    margin: 40px 0 -20px 0;
-    font-size: 5em;
-    font-weight: normal;
-    line-height: 1em;
-}
-
 /******************************************************** 
 navigation
 ********************************************************/
@@ -42,18 +33,20 @@ nav a:hover
 
 nav
 {
-    font-family: 'Anton', serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 1.50em;
     text-align: center;
     background-color: #7dc4c8;
+    overflow: hidden;
+    margin: 0 0 5px 0;
 }
 
 nav ul
 {
     list-style: none;
-    margin: 35px 40px 5px; 
-    padding: 0;
+    margin: 0; 
+    padding: 10px 0;
 }
 
 nav li
@@ -64,6 +57,22 @@ nav li
 /******************************************************** 
 div: section, footer 
 ********************************************************/
+#sectionWrapper
+{
+    max-width: 100%;
+    margin: 0 auto;
+    /*padding: 0 1%;*/
+    padding: 0;
+}
+
+#footerWrapper
+{
+    max-width: 100%;
+    margin: 0 auto;
+    /*padding: 0 1%;*/
+    padding: 0;
+}
+
 #wrapper
 {
     max-width: 100%;
@@ -83,6 +92,7 @@ footer
     text-align: center;
     clear: both;
     padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
 }
 
 /******************************************************** 
@@ -113,6 +123,122 @@ faq page
 contact page
 ********************************************************/
 
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+.container 
+{
+	max-width:50%;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+    font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size: 17px;
+	line-height: 30px;
+	color:#777;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] { font:400 14px/17px 'Oswald', sans-serif; }
+
+#contact 
+{
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+fieldset 
+{
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea 
+{
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover 
+{
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea 
+{
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] 
+{
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#7dc4c8;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:17px;
+}
+
+#contact button[type="submit"]:hover 
+{
+	background:#52aaaf;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+#contact input:focus, #contact textarea:focus 
+{
+	outline:0;
+	border:1px solid #999;
+}
+
+::-webkit-input-placeholder 
+{
+ color:#888;
+}
+
+:-moz-placeholder 
+{
+ color:#888;
+}
+
+::-moz-placeholder 
+{
+ color:#888;
+}
+
+:-ms-input-placeholder 
+{
+ color:#888;
+}
+
 /******************************************************** 
-relevant colors: #7dc4c8 (teal) & 
+relevant colors: #7dc4c8 (teal) & #52aaaf (dark teal)
+relevant texts: oswald, 
 ********************************************************/
