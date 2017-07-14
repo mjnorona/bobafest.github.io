@@ -23,28 +23,46 @@
             </nav>
             <img src="Pictures/contact.jpg" style="width: 100%"> <!-- feature photo -->
         </header>  
-        <div id="sectionWrapper">
-            <section>
-                <div class="container">  
-                    <form id="contact" action="" method="post">
-                    <label for="fname">NAME</label>
-                    <fieldset>
-                        <input placeholder="YOUR NAME" type="text" tabindex="1" required autofocus>
-                    </fieldset>
-                    <label for="fname">EMAIL ADDRESS</label>
-                    <fieldset>
-                        <input placeholder="YOUR EMAIL ADDRESS" type="email" tabindex="2" required>
-                    </fieldset>
-                    <label for="fname">MESSAGE</label>
-                    <fieldset>
-                        <textarea placeholder="TYPE YOUR MESSAGE HERE..." tabindex="3" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SUBMIT</button>
-                    </fieldset>
-                    </form>
-                </div>
-            </section>
+        <div id="contactBackground">
+            <div id="contactWrapper">
+                <section>
+                    <div id="leftSide">
+                        <div class="container">  
+                            <form id="contact" action="index.php" method="post">
+                                <label for="name">NAME</label>
+                                <fieldset>
+                                    <input name="name" placeholder="YOUR NAME" type="text" tabindex="1" required autofocus>
+                                </fieldset>
+                                <label for="email">EMAIL ADDRESS</label>
+                                <fieldset>
+                                    <input name="email" placeholder="YOUR EMAIL ADDRESS" type="email" tabindex="2" required>
+                                </fieldset>
+                                <label for="message">MESSAGE</label>
+                                <fieldset>
+                                    <textarea name="message" placeholder="TYPE YOUR MESSAGE HERE..." tabindex="3" required></textarea>
+                                </fieldset>
+                                <fieldset>
+                                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SUBMIT</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="rightSide">
+                        <h4>CONTACT US</h4>
+                        <h5>EMAIL ADDRESS</h5>
+                        <h6><a href="mailto:info@officialbobafest.com">info@officialbobafest.com</a></h6>
+                        <h5>SOCIAL MEDIA</h5>
+                        <div id="socialMedia">
+                            <ul id="socialSites">
+                                <li><a href="https://www.facebook.com/bobafestival" class="selected"><img src="pictures/fb.png" alt="Facebook" style="width:40px;height:40px;"></a></li>
+                                <li><a href="https://www.instagram.com/bobafestival/" class="selected"><img src="pictures/ig.png" alt="Instagram" style="width:40px;height:40px;"></a></li>
+                                <li><a href="https://twitter.com/bobafestival" class="selected"><img src="pictures/tw.png" alt="Twitter" style="width:40px;height:40px;"></a></li>
+                                <li><a href="https://www.flickr.com/photos/bobafestival" class="selected"><img src="pictures/flkr.png" alt="Flickr" style="width:40px;height:40px;"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
         <div id="footerWrapper">
             <footer>

@@ -185,15 +185,15 @@ contact page
 
 .container 
 {
-	max-width:50%;
-	width:100%;
-	margin:0 auto;
-	position:relative;
+	max-width: 85%;
+	width: 100%;
+	margin: -20px auto;
+	position: relative;
     font-family: 'Oswald', sans-serif;
-	font-weight:300;
+	font-weight: 300;
 	font-size: 17px;
 	line-height: 30px;
-	color:#777;
+	color: #777;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] { font:400 14px/17px 'Oxygen', sans-serif;}
@@ -290,7 +290,84 @@ fieldset
     font-family: 'Oswald', sans-serif;
 }
 
+#contactBackground
+{
+    background-color: #7dc4c8;
+}
+
+#contactWrapper
+{
+    max-width: 90%;
+    background-color: #F9F9F9;
+    margin: 2px auto 0 auto;
+    padding: 0;
+}
+
+#leftSide, #rightSide 
+{
+    float: left;
+    min-height: 450px;
+    color: white;
+    height: 475px;
+}
+
+#leftSide 
+{
+    width: 60%;
+    background-color: #F9F9F9;
+}
+
+#rightSide 
+{
+    width: 40%;
+    background-color: #F9F9F9;
+}
+
+h4
+{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    margin: 79px 0 0 0;
+}
+
+h5
+{
+    color: #7dc4c8;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin: 30px 0 0 0;
+}
+
+h6
+{
+    color: #888;
+    font-size: 1em; 
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+    margin: 5px 0 5px 0;
+}
+
+#rightSide a, #rightSide a:visited
+{
+    color: #888;
+}
+
+#rightSide a:hover
+{
+    color: #7dc4c8;
+}
+
+#socialMedia li
+{
+    display: inline-block;
+    margin: 8px 0 0 0;
+}
+
 /******************************************************** 
 relevant colors: #7dc4c8 (teal) & #52aaaf (dark teal)
+relevant colors: #F9F9F9 (light gray)
 relevant texts: oswald, oxygen
 ********************************************************/
