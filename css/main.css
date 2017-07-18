@@ -121,6 +121,11 @@ h9
     width: 33%;
 }
 
+#footerRight a, #footerRight a:visited, #footerRight a:hover
+{
+    color: white;
+}
+
 /******************************************************** 
 home page
 ********************************************************/
@@ -238,12 +243,12 @@ h3
 
 #faqWrapper a, #faqWrapper a:visited
 {
-    color: black;
+    color: #7dc4c8;
 }
 
 #faqWrapper a:hover
 {
-    color: #7dc4c8;
+    color: #52aaaf;
 }
 
 /******************************************************** 
