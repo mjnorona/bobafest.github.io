@@ -29,6 +29,7 @@ nav a, nav a:visited
 nav a:hover
 {
     color: white;
+    text-decoration: none;
 }
 
 #homebutton
