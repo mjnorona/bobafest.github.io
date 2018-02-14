@@ -286,7 +286,7 @@ contact page
 	text-rendering:optimizeLegibility;
 }
 
-.container 
+.container2
 {
 	max-width: 85%;
 	width: 100%;
@@ -396,6 +396,7 @@ fieldset
 #contactBackground
 {
     background-color: white;
+    overflow: hidden;
 }
 
 #contactWrapper
