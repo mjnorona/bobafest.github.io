@@ -1,474 +1,428 @@
+@font-face {
+  src: url(../fonts//oh_wonder/Oh\Wonderful\Regular\DEMO.otf);
+  font-family: oh-wonderful;
+}
+@font-face {
+  src: url(../fonts/biko/Biko_Regular.otf);
+  font-family: biko;
+}
+
 /******************************************************** 
 header
 ********************************************************/
-a
-{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-header a, header a:visited
-{
-    color: black;
+header a,
+header a:visited {
+  color: black;
 }
 
-#logo
-{
-    text-align: center;
-    margin: 0;
+#logo {
+  text-align: center;
+  margin: 0;
 }
 
 /******************************************************** 
 navigation
 ********************************************************/
-nav a, nav a:visited
-{
-    color: white;
-    padding: 15px 20px;
+nav a,
+nav a:visited {
+  color: white;
+  /*adding: 15px 20px;*/
 }
 
-nav a:hover
-{
-    color: white;
-    text-decoration: none;
+nav a:hover {
+  color: white;
+  text-decoration: none;
 }
 
-#homebutton
-{
-    font-family: 
+nav {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
 }
 
-nav
-{
-    font-family: 'Oswald', sans-serif;
-    font-weight: normal;
-    font-size: 1.50em;
-    text-align: center;
-    background-color: #7dc4c8;
-    overflow: hidden;
-    margin: 0 0 5px 0;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  display: flex;
 }
 
-nav ul
-{
-    list-style: none;
-    margin: 0; 
-    padding: 10px 0;
-    display: flex;
+nav li {
+  display: inline-block;
 }
 
-nav li
-{
-    display: inline-block;
-}
-
-nav ul li:first-child 
-{
-    margin-right: auto;
+nav ul li:first-child {
+  margin-right: auto;
 }
 
 /******************************************************** 
 div: section, footer 
 ********************************************************/
-#footerWrapper
-{
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 8px 0;
-    background-color: #7dc4c8;
-    overflow: hidden;
+img {
+  max-width: 100%;
 }
 
-img
-{
-    max-width: 100%;
+footer {
+  text-align: center;
+  clear: both;
+  background-color: #7dc4c8;
+  padding: 15px;
 }
 
-footer
-{
-    text-align: center;
-    clear: both;
-    
+h7 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
 }
 
-h7
-{
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
-    font-weight: normal;
+h8 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin-top: 10px;
 }
 
-h8
-{
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.3em;
-    font-weight: normal;
-    margin-top: 10px;
+h9 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
 }
 
-h9
-{
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
-    font-weight: normal;
+#footerLeft {
+  float: left;
+  width: 33%;
 }
 
-#footerLeft
-{
-    float: left;
-    width: 33%;
+#footerMiddle {
+  float: left;
+  width: 34%;
 }
 
-#footerMiddle
-{
-    float: left;
-    width: 34%;
+#footerRight {
+  float: left;
+  width: 33%;
 }
 
-#footerRight
-{
-    float: left;
-    width: 33%;
-}
-
-#footerRight a, #footerRight a:visited, #footerRight a:hover
-{
-    color: white;
+#footerRight a,
+#footerRight a:visited,
+#footerRight a:hover {
+  color: white;
 }
 
 /******************************************************** 
 home page
 ********************************************************/
-#homeWrapper
-{
-    max-width: 90%;
-    /*background-color: #F9F9F9;*/
-    margin: 30px auto 50px auto;
-    padding: 0;
-    text-align: center;
+#homeWrapper {
+  max-width: 90%;
+  /*background-color: #F9F9F9;*/
+  margin: 30px auto 50px auto;
+  padding: 0;
+  text-align: center;
 }
 
-h11
-{
-    font-family: 'Oswald', sans-serif;
-    font-size: 2.5em;
-    font-weight: normal;
-    margin: 3px auto 15px auto;
-    color: #7dc4c8;
+h11 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 3px auto 15px auto;
+  color: #7dc4c8;
 }
 
-#countdown
-{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2em;
-    color: #888;
+#countdown {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+  color: #888;
 }
 
 /******************************************************** 
 about page
 ********************************************************/
-#aboutWrapper
-{
-    max-width: 90%;
-    /*background-color: #F9F9F9;*/
-    margin: 30px auto 50px auto;
-    padding: 0;
-    text-align: center;
+#aboutWrapper {
+  max-width: 90%;
+  /*background-color: #F9F9F9;*/
+  margin: 30px auto 50px auto;
+  padding: 0;
+  text-align: center;
 }
 
-h10
-{
-    font-family: 'Oswald', sans-serif;
-    font-size: 2.5em;
-    font-weight: normal;
-    margin: 3px 0 15px 15px;
-    color: #7dc4c8;
+h10 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 3px 0 15px 15px;
+  color: #7dc4c8;
 }
 
 /******************************************************** 
 vendors page
 ********************************************************/
-#vendorWrapper
-{
-    max-width: 90%;
-    /*background-color: #F9F9F9;*/
-    margin: 30px auto -30px auto;
-    padding: 0;
+#vendorWrapper {
+  max-width: 90%;
+  /*background-color: #F9F9F9;*/
+  margin: 30px auto -30px auto;
+  padding: 0;
 }
 
 /******************************************************** 
 volunteers page
 ********************************************************/
-#volunteerWrapper
-{
-    max-width: 90%;
-    /*background-color: #F9F9F9;*/
-    margin: 30px auto -30px auto;
-    padding: 0;
+#volunteerWrapper {
+  max-width: 90%;
+  /*background-color: #F9F9F9;*/
+  margin: 30px auto -30px auto;
+  padding: 0;
 }
 
 /******************************************************** 
 gallery page
 ********************************************************/
-#galleryWrapper
-{
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 8px 0;
+#galleryWrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 8px 0;
 }
 
 /******************************************************** 
 faq page
 ********************************************************/
-#faqBackground
-{
-    background-color: white;
+#faqBackground {
+  background-color: white;
 }
 
-#faqWrapper
-{
-    max-width: 90%;
-    margin: 30px auto 50px auto;
-    padding: 0;
+#faqWrapper {
+  max-width: 90%;
+  margin: 30px auto 50px auto;
+  padding: 0;
 }
 
-h1
-{
-    font-family: 'Oswald', sans-serif;
-    font-size: 2.5em;
-    font-weight: normal;
-    margin: 3px 0 15px 15px;
-    color: #7dc4c8;
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 3px 0 15px 15px;
+  color: #7dc4c8;
 }
 
-h2
-{
-    font-family: 'Oxygen', sans-serif;
-    font-size: 1.3em;
-    font-weight: normal;
-    margin: -6px 0 5px 15px;
+h2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin: -6px 0 5px 15px;
 }
 
-h3
-{
-    font-family: 'Oxygen', sans-serif;
-    font-size: 1.15em;
-    font-weight: normal;
-    margin: -3px 0 20px 15px;
-    color: #888;
+h3 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.15em;
+  font-weight: normal;
+  margin: -3px 0 20px 15px;
+  color: #888;
 }
 
-#faqWrapper a, #faqWrapper a:visited
-{
-    color: #7dc4c8;
+#faqWrapper a,
+#faqWrapper a:visited {
+  color: #7dc4c8;
 }
 
-#faqWrapper a:hover
-{
-    color: #52aaaf;
+#faqWrapper a:hover {
+  color: #52aaaf;
 }
 
 /******************************************************** 
 contact page
 ********************************************************/
 * {
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-font-smoothing:antialiased;
-	-moz-font-smoothing:antialiased;
-	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-.container2
-{
-	max-width: 85%;
-	width: 100%;
-	margin: -20px auto;
-	position: relative;
-    font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	font-size: 17px;
-	line-height: 30px;
-	color: #777;
+.container2 {
+  max-width: 85%;
+  width: 100%;
+  margin: -20px auto;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #777;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] { font:400 14px/17px 'Oxygen', sans-serif;}
-
-#contact 
-{
-	background:#F9F9F9;
-	padding:25px;
-	margin:50px 0;
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 14px/17px "Oxygen", sans-serif;
 }
 
-fieldset 
-{
-	border: medium none !important;
-	margin: 0 0 10px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
+#contact {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 50px 0;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact textarea 
-{
-	width:100%;
-	border:1px solid #CCC;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact textarea:hover 
-{
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
 }
 
-#contact textarea 
-{
-	height:100px;
-	max-width:100%;
-  resize:none;
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
 }
 
-#contact button[type="submit"] 
-{
-	cursor:pointer;
-	width:100%;
-	border:none;
-	background:#7dc4c8;
-	color:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	font-size:17px;
-    font-family: 'Oswald', sans-serif;
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
 }
 
-#contact button[type="submit"]:hover 
-{
-	background:#52aaaf;
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
-	transition:background-color 0.3s ease-in-out;
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #7dc4c8;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 17px;
+  font-family: "Oswald", sans-serif;
 }
 
-#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
-#contact input:focus, #contact textarea:focus 
-{
-	outline:0;
-	border:1px solid #999;
+#contact button[type="submit"]:hover {
+  background: #52aaaf;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
-::-webkit-input-placeholder 
-{
-    color:#888;
-    font-family: 'Oswald', sans-serif;
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
 }
 
-:-moz-placeholder 
-{
-    color:#888;
-    font-family: 'Oswald', sans-serif;
+::-webkit-input-placeholder {
+  color: #888;
+  font-family: "Oswald", sans-serif;
 }
 
-::-moz-placeholder 
-{
-    color:#888;
-    font-family: 'Oswald', sans-serif;
+:-moz-placeholder {
+  color: #888;
+  font-family: "Oswald", sans-serif;
 }
 
-:-ms-input-placeholder 
-{
-    color:#888;
-    font-family: 'Oswald', sans-serif;
+::-moz-placeholder {
+  color: #888;
+  font-family: "Oswald", sans-serif;
 }
 
-#contactBackground
-{
-    background-color: white;
-    overflow: hidden;
+:-ms-input-placeholder {
+  color: #888;
+  font-family: "Oswald", sans-serif;
 }
 
-#contactWrapper
-{
-    max-width: 90%;
-    background-color: #F9F9F9;
-    margin: 2px auto 6px auto;
-    padding: 0;
-    overflow: hidden;
+#contactBackground {
+  background-color: white;
+  overflow: hidden;
 }
 
-#leftSide, #rightSide 
-{
-    float: left;
-    min-height: 450px;
-    color: white;
-    height: 475px;
-    background-color: #F9F9F9;
+#contactWrapper {
+  max-width: 90%;
+  background-color: #f9f9f9;
+  margin: 2px auto 6px auto;
+  padding: 0;
+  overflow: hidden;
 }
 
-#leftSide 
-{
-    width: 60%;
+#leftSide,
+#rightSide {
+  float: left;
+  min-height: 450px;
+  color: white;
+  height: 475px;
+  background-color: #f9f9f9;
 }
 
-#rightSide 
-{
-    width: 40%;
+#leftSide {
+  width: 60%;
 }
 
-h4
-{
-    color: black;
-    font-family: 'Oswald', sans-serif;
-    font-weight: lighter;
-    font-size: 2em;
-    margin: 79px 0 0 0;
+#rightSide {
+  width: 40%;
 }
 
-h5
-{
-    color: #7dc4c8;
-    font-family: 'Oswald', sans-serif;
-    font-weight: lighter;
-    font-size: 1.5em;
-    margin: 30px 0 0 0;
+h4 {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+  margin: 79px 0 0 0;
 }
 
-h6
-{
-    color: #888;
-    font-size: 1em;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: lighter;
-    margin: 5px 0 5px 0;
+h5 {
+  color: #7dc4c8;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin: 30px 0 0 0;
 }
 
-#rightSide a, #rightSide a:visited
-{
-    color: #888;
+h6 {
+  color: #888;
+  font-size: 1em;
+  font-family: "Oxygen", sans-serif;
+  font-weight: lighter;
+  margin: 5px 0 5px 0;
 }
 
-#rightSide a:hover
-{
-    color: #7dc4c8;
+#rightSide a,
+#rightSide a:visited {
+  color: #888;
 }
 
-#socialMedia li
-{
-    display: inline-block;
-    margin: 8px 0 0 0;
+#rightSide a:hover {
+  color: #7dc4c8;
+}
+
+#socialMedia li {
+  display: inline-block;
+  margin: 8px 0 0 0;
 }
 
 /******************************************************** 
