@@ -6,7 +6,9 @@
   src: url(../fonts/biko/Biko_Regular.otf);
   font-family: biko;
 }
-
+.ohwonderfulFont {
+  font-family: oh-wonderful;
+}
 .bikofont {
   font-family: biko;
 }
@@ -60,9 +62,6 @@ nav li {
 
 nav ul li:first-child {
   margin-right: auto;
-}
-.navbarFont {
-  font-family: oh-wonderful;
 }
 /******************************************************** 
 div: section, footer 
