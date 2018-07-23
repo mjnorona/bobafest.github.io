@@ -123,14 +123,11 @@ h9 {
 /******************************************************** 
 home page
 ********************************************************/
-#homeWrapper {
-  max-width: 90%;
-  /*background-color: #F9F9F9;*/
-  margin: 30px auto 50px auto;
-  padding: 0;
+.timelineheader {
+  display: block;
+  margin: 0 auto;
   text-align: center;
 }
-
 h11 {
   font-family: "Oswald", sans-serif;
   font-size: 2.5em;
@@ -146,6 +143,9 @@ h11 {
   color: #888;
 }
 
+.countdowncontainer {
+  margin: auto;
+}
 /******************************************************** 
 about page
 ********************************************************/
