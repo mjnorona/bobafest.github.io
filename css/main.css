@@ -58,7 +58,9 @@ nav li {
 nav ul li:first-child {
   margin-right: auto;
 }
-
+.navbarFont {
+  font-family: oh-wonderful;
+}
 /******************************************************** 
 div: section, footer 
 ********************************************************/
