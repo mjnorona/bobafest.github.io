@@ -160,7 +160,9 @@ h10 {
   margin: 3px 0 15px 15px;
   color: #7dc4c8;
 }
-
+.fanalepic {
+  width: 50%;
+}
 /******************************************************** 
 vendors page
 ********************************************************/
@@ -233,6 +235,14 @@ h3 {
 
 #faqWrapper a:hover {
   color: #52aaaf;
+}
+/*
+  GALLERY PAGE
+*/
+.gallerypic {
+  box-shadow: 8px 10px 8px #888888;
+  display: block;
+  margin: 0 auto;
 }
 
 /******************************************************** 
