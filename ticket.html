@@ -41,36 +41,31 @@
             </div>
         </div>
     </nav>
-    <!--Landing-->
     <img src="pictures/contact.jpg" style="width: 100%">
-    <div class="row mt-4 mb-4">
-        <div class="col-lg-6 col-md-12 col-sm-12" style="margin: auto; text-align: center;">
-            <h11 class="bikofont timelineheader">COMING OCTOBER 2018</h11>
-            <div id="countdown">
-                <p id="demo"></p>
-                <script>
-                    var countDownDate = new Date("Oct 13, 2018 12:00:00").getTime();
-                    var x = setInterval(function () {
-                        var now = new Date().getTime();
-                        var distance = countDownDate - now;
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                        document.getElementById("demo").innerHTML = days + "D " + hours + "H " + minutes + "M " + seconds + "S ";
 
-                        // If the count down is over, write some text 
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("demo").innerHTML = "EXPIRED";
-                        }
-                    }, 1000);
-                </script>
-            </div>
+    <div class="row" style="padding: 40px;">
+        <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+            <img class="masonjar" src="https://www.claires.com/dw/image/v2/BBTK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw444c4962/images/hi-res/49042_1.jpg?sw=734&sh=734&sm=fit"
+                alt="masonjar">
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.6568742928957!2d-121.85603604963366!3d37.30326524682129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e32fc62392ed5%3A0x219f4c88363a8d57!2sSanta+Clara+County+Fairgrounds!5e0!3m2!1sen!2sus!4v1532325383108"
-                width="400" height="300" frameborder="0" style="border:0; margin: 0 auto; display: block;" allowfullscreen></iframe>
+        <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+            <div class="card" style="width: 18rem; display: block; margin: 0 auto; margin-top: 30px;">
+                <div class="card-body">
+                    <h5 class="card-title bikofont">Purchase Your Tickets!</h5>
+                    <h6 class="card-subtitle mb-2 text-muted ohwonderfulFont">Pricing Info:</h6>
+                    <ul style="padding: 20px;">
+                        <li class="bikofont">Presale: $15</li>
+                        <li class="bikofont">Presale + Mason Jar: $25</li>
+                        <li class="bikofont">General Admission: $25</li>
+                        <li class="bikofont">At the Door: $30</li>
+                    </ul>
+                    <div class="purchasebuttoncontainer">
+                        <a href="#" class="card-link btn btn-primary" style="background-color: #7dc4c8;; border: none; margin: 0 auto; display: block;">Purchase Now!</a>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
     </div>
 

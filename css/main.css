@@ -441,6 +441,14 @@ h6 {
   display: inline-block;
   margin: 8px 0 0 0;
 }
+/******************************************************** 
+ticket page
+********************************************************/
+.masonjar {
+  width: 18rem;
+  display: block;
+  margin: 0 auto;
+}
 
 /******************************************************** 
 relevant colors: #7dc4c8 (teal) & #52aaaf (dark teal)
