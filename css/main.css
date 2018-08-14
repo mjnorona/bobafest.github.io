@@ -169,7 +169,17 @@ h10 {
   width: 40%;
   box-shadow: 8px 10px 8px #888888;
 }
-
+.highlightsabout {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.lineacross {
+  background: #fff;
+  padding: 0 10px;
+}
 /******************************************************** 
 vendors page
 ********************************************************/
